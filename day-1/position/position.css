@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-size: 2rem;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+.parent {
+    background-color: rgb(255, 209, 152);
+    padding: .25rem;
+    position: sticky;
+    top: 16px;
+}
+
+.child1 {
+    background-color: #ff8e8e;
+    padding: .25rem;
+    position: relative;
+    right: 16px;
+    top: 50px;
+}
+
+.child2 {
+    background-color: #a4ffed;
+    padding: .25rem;
+    position: absolute;
+    top: 60px;
+}
+
+.child3 {
+    background-color: #d3e1ff;
+    padding: .25rem;
+    /* position: fixed; */
+    position: sticky;
+}
