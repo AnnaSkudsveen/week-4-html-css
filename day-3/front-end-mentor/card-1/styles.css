@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background-color: #F2F2F2;
+    padding: 88px 48px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-luxury, .card-sedans, .card-suvs {
+    height: 442px;
+    max-width: 327px;
+    padding: 48px;
+    position: relative;
+    color: #F2F2F2;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.card-sedans {
+    background-color: #E28625;
+    border-radius: 8px 8px 0 0;
+}
+
+.card-suvs {
+    background-color: #006971;
+}
+
+.card-luxury {
+    background-color: #004140;
+    border-radius: 0 0 8px 8px;
+}
+
+
+
+/* Small (sm) */
+@media (min-width: 640px) {
+}
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+    .card {
+        display: flex;
+        flex-direction: row;
+    }
+    .card-luxury, .card-sedans, .card-suvs {
+        height: 500px;
+        padding: 48px;
+        max-width: 307px;
+    }
+    .card-sedans {
+        background-color: #E28625;
+        border-radius: 8px 0 0 8px;
+    }
+    .card-luxury {
+        background-color: #004140;
+        border-radius: 0 8px 8px 0;
+    }
+}
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* Your styles for the large breakpoint here */
+}
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}

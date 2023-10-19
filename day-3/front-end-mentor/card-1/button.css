@@ -1,0 +1,29 @@
+button {
+    position: absolute;
+    background-color: #F2F2F2;
+    width: 146px;
+    height: 48px;
+    border: 0px;
+    border-radius: 25px;
+    bottom: 48px;
+}
+
+.card-sedans button {
+    color: #E28625;
+}
+.card-suvs button {
+    color: #006971;
+}
+.card-luxury button {
+    color: #004140;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    width: 146px;
+    height: 48px;
+    border: 2px solid #F2F2F2;
+    border-radius: 25px;
+    cursor: pointer;
+}
